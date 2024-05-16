@@ -75,15 +75,12 @@ This preparatory work ensured that the dataset was streamlined and ready for det
 #### Data Preprocessing
 As part of the Exploratory Data Analysis (EDA), the next step involved comprehensive data preprocessing to prepare the text data for sentiment analysis.
 
-**Text Normalization:** All text strings were converted to lowercase to ensure consistency and uniformity in the analysis.
-
-**HTML Tag Removal:** Any HTML tags present in the review column were removed using regular expressions (regex) to clean the text and focus solely on the content of the reviews.
-
-**Tokenization:** The text data was tokenized, breaking down the strings into individual words or tokens. This step is crucial for subsequent text analysis tasks.
-
-**Stop Words Removal:** Common stop words (e.g., "and," "the," "is") were removed to eliminate noise and focus on the significant words that contribute to the sentiment.
-**Duplicate Texts:** Texts that are duplicated were dropped.
-**Stemming:** This was done to reduce the texts to their base form, using PorterStemmer.
+- **Text Normalization:** All text strings were converted to lowercase to ensure consistency and uniformity in the analysis.
+- **HTML Tag Removal:** Any HTML tags present in the review column were removed using regular expressions (regex) to clean the text and focus solely on the content of the reviews.
+- **Tokenization:** The text data was tokenized, breaking down the strings into individual words or tokens. This step is crucial for subsequent text analysis tasks.
+- **Stop Words Removal:** Common stop words (e.g., "and," "the," "is") were removed to eliminate noise and focus on the significant words that contribute to the sentiment.
+- **Duplicate Texts:** Texts that are duplicated were dropped.
+- **Stemming:** This was done to reduce the texts to their base form, using PorterStemmer.
 
 ```python
 def preprocess_text(text):
