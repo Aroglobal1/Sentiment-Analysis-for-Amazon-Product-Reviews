@@ -210,7 +210,7 @@ plt.show()
 ```
 ![image](https://github.com/Aroglobal1/Sentiment-Analysis-for-Amazon-Product-Reviews/assets/148555924/4506d9b4-c728-4ff7-ae71-1a37f6633ba6)
 
-The confusion matrix was visualized using a heatmap to provide an intuitive understanding of the classification results, highlighting both the strengths and areas for potential improvement.
+The confusion matrix was visualized using a heatmap to display the number of accurate and inaccurate instances based on the model’s predictions. 
 
 **Performance Metrics** (derived from the confusion matrix):
 
