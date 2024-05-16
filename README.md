@@ -192,10 +192,10 @@ print("Accuracy: {:.2f}%".format(model_accuracy*100))
 ![image](https://github.com/Aroglobal1/Sentiment-Analysis-for-Amazon-Product-Reviews/assets/148555924/5c003ee9-d1fa-44bf-819d-15390574fc6a)
 
 The confusion matrix includes the following components:
-**True Positives (TP)**: 
-**True Negatives (TN)**: 
-**False Positives (FP)**: 
-**False Negatives (FN)**: 
+- **True Positives (TP)**: 4171
+- **True Negatives (TN)**: 581
+- **False Positives (FP)**: 417
+- **False Negatives (FN)**: 179
 
 ```python
 # Confusion matrix
@@ -217,10 +217,10 @@ The confusion matrix was visualized using a heatmap to provide an intuitive unde
 
 **Performance Metrics** (derived from the confusion matrix):
 
-Accuracy: (TP + TN) / (TP + TN + FP + FN) = _____
-Precision: TP / (TP + FP) = _____
-Recall: TP / (TP + FN) = _____
-F1-Score: 2 \times (Precision \times Recall) / (Precision + Recall) = ____
+- Accuracy: (TP + TN) / (Total Samples) = (4171 + 581) / (5348) = 0.89
+- Precision: TP / (TP + FP) = 4171 / (4171 + 417) = 0.91 (91% of predicted positives were actually positive)
+- Recall: TP / (TP + FN) = 4171 / (4171 + 179) = 0.96 (96% of actual positives were identified)
+- F1-Score: 2 * (Precision * Recall) / (Precision + Recall) = 2 * (0.91 * 0.96) / (0.91 + 0.96) = 0.93 
 
-### Recommendations
+### Interpretation and Recommendations
 
