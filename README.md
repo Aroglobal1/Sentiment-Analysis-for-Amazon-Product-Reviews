@@ -219,5 +219,6 @@ The confusion matrix was visualized using a heatmap to display the number of acc
 - Recall: TP / (TP + FN) = 4171 / (4171 + 179) = 0.96 (96% of actual positives were identified)
 - F1-Score: 2 * (Precision * Recall) / (Precision + Recall) = 2 * (0.91 * 0.96) / (0.91 + 0.96) = 0.93 
 
-### Interpretation and Recommendations
+### Interpretation
 
+These metrics indicate that the sentiment analysis model has a high accuracy, precision, recall, and F1-score for the positive class, meaning it performs well in identifying positive sentiment while also maintaining a good balance between precision and recall.
