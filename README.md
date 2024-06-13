@@ -8,7 +8,7 @@ The objective of this project is to delve into the world of natural language pro
 
 
 ### Data Source
-The dataset used for this project was gotten from Kaggle. " .csv" includes text reviews and associated ratings, which will be used to perform sentiment analysis.
+The dataset used for this project was gotten from Kaggle. It includes text reviews and associated ratings, which will be used to perform sentiment analysis.
 
 
 ### Tools
